@@ -1,0 +1,134 @@
+2019-03-28 11:33:24  [ main:0 ] - [ INFO ]  ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [linux01:9092, linux02:9092, linux03:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 5
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2019-03-28 11:33:25  [ main:766 ] - [ INFO ]  Kafka version : 0.11.0.2
+2019-03-28 11:33:25  [ main:766 ] - [ INFO ]  Kafka commitId : 73be1e1168f91ee2
+2019-03-28 11:33:25  [ main:818 ] - [ INFO ]  ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [linux01:9092, linux02:9092, linux03:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 5
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2019-03-28 11:33:25  [ main:824 ] - [ INFO ]  Kafka version : 0.11.0.2
+2019-03-28 11:33:25  [ main:824 ] - [ INFO ]  Kafka commitId : 73be1e1168f91ee2
+2019-03-28 11:33:25  [ kafka-producer-network-thread | producer-1:1063 ] - [ INFO ]  当前偏移量：2-2098
+数据发送成功：{"student_id":"学生ID_12","textbook_id":"教材ID_2","grade_id":"年级ID_6","subject_id":"科目ID_2_语文","chapter_id":"章节ID_chapter_1","question_id":"题目ID_2060","score":9,"answer_time":"2019-03-28 11:33:25","ts":"Mar 28, 2019 11:33:25 AM"}
+2019-03-28 11:33:25  [ kafka-producer-network-thread | producer-2:1063 ] - [ INFO ]  当前偏移量：1-2098
+数据发送成功：{"student_id":"学生ID_26","textbook_id":"教材ID_1","grade_id":"年级ID_2","subject_id":"科目ID_2_语文","chapter_id":"章节ID_chapter_3","question_id":"题目ID_295","score":0,"answer_time":"2019-03-28 11:33:25","ts":"Mar 28, 2019 11:33:25 AM"}
+2019-03-28 11:33:25  [ kafka-producer-network-thread | producer-1:1322 ] - [ INFO ]  当前偏移量：1-2099
+数据发送成功：{"student_id":"学生ID_43","textbook_id":"教材ID_1","grade_id":"年级ID_1","subject_id":"科目ID_1_数学","chapter_id":"章节ID_chapter_2","question_id":"题目ID_25","score":4,"answer_time":"2019-03-28 11:33:25","ts":"Mar 28, 2019 11:33:25 AM"}
+2019-03-28 11:33:25  [ kafka-producer-network-thread | producer-2:1377 ] - [ INFO ]  当前偏移量：0-2099
+数据发送成功：{"student_id":"学生ID_48","textbook_id":"教材ID_1","grade_id":"年级ID_5","subject_id":"科目ID_1_数学","chapter_id":"章节ID_chapter_3","question_id":"题目ID_775","score":8,"answer_time":"2019-03-28 11:33:25","ts":"Mar 28, 2019 11:33:25 AM"}
+2019-03-28 11:33:26  [ kafka-producer-network-thread | producer-1:1623 ] - [ INFO ]  当前偏移量：0-2100
+数据发送成功：{"student_id":"学生ID_8","textbook_id":"教材ID_1","grade_id":"年级ID_2","subject_id":"科目ID_2_语文","chapter_id":"章节ID_chapter_2","question_id":"题目ID_273","score":4,"answer_time":"2019-03-28 11:33:26","ts":"Mar 28, 2019 11:33:26 AM"}
+2019-03-28 11:33:26  [ kafka-producer-network-thread | producer-2:1624 ] - [ INFO ]  当前偏移量：2-2099
+数据发送成功：{"student_id":"学生ID_2","textbook_id":"教材ID_2","grade_id":"年级ID_6","subject_id":"科目ID_2_语文","chapter_id":"章节ID_chapter_1","question_id":"题目ID_2049","score":2,"answer_time":"2019-03-28 11:33:26","ts":"Mar 28, 2019 11:33:26 AM"}
+2019-03-28 11:33:26  [ kafka-producer-network-thread | producer-1:1920 ] - [ INFO ]  当前偏移量：2-2100
+数据发送成功：{"student_id":"学生ID_11","textbook_id":"教材ID_2","grade_id":"年级ID_2","subject_id":"科目ID_2_语文","chapter_id":"章节ID_chapter_3","question_id":"题目ID_1372","score":9,"answer_time":"2019-03-28 11:33:26","ts":"Mar 28, 2019 11:33:26 AM"}
+2019-03-28 11:33:26  [ kafka-producer-network-thread | producer-2:1921 ] - [ INFO ]  当前偏移量：1-2100
+数据发送成功：{"student_id":"学生ID_27","textbook_id":"教材ID_2","grade_id":"年级ID_3","subject_id":"科目ID_2_语文","chapter_id":"章节ID_chapter_1","question_id":"题目ID_1504","score":0,"answer_time":"2019-03-28 11:33:26","ts":"Mar 28, 2019 11:33:26 AM"}
+2019-03-28 11:33:26  [ kafka-producer-network-thread | producer-1:2222 ] - [ INFO ]  当前偏移量：1-2101
+数据发送成功：{"student_id":"学生ID_24","textbook_id":"教材ID_1","grade_id":"年级ID_3","subject_id":"科目ID_2_语文","chapter_id":"章节ID_chapter_3","question_id":"题目ID_473","score":7,"answer_time":"2019-03-28 11:33:26","ts":"Mar 28, 2019 11:33:26 AM"}
+2019-03-28 11:33:26  [ kafka-producer-network-thread | producer-2:2226 ] - [ INFO ]  当前偏移量：0-2101
+数据发送成功：{"student_id":"学生ID_35","textbook_id":"教材ID_2","grade_id":"年级ID_3","subject_id":"科目ID_1_数学","chapter_id":"章节ID_chapter_3","question_id":"题目ID_1494","score":6,"answer_time":"2019-03-28 11:33:26","ts":"Mar 28, 2019 11:33:26 AM"}

@@ -1,0 +1,55 @@
+2019-03-30 11:30:26  [ main:0 ] - [ INFO ]  Running Spark version 2.4.0
+2019-03-30 11:30:27  [ main:464 ] - [ INFO ]  Submitted application: BatchAnalysis
+2019-03-30 11:30:27  [ main:548 ] - [ INFO ]  Changing view acls to: Z,admin
+2019-03-30 11:30:27  [ main:548 ] - [ INFO ]  Changing modify acls to: Z,admin
+2019-03-30 11:30:27  [ main:549 ] - [ INFO ]  Changing view acls groups to: 
+2019-03-30 11:30:27  [ main:550 ] - [ INFO ]  Changing modify acls groups to: 
+2019-03-30 11:30:27  [ main:551 ] - [ INFO ]  SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Z, admin); groups with view permissions: Set(); users  with modify permissions: Set(Z, admin); groups with modify permissions: Set()
+2019-03-30 11:30:28  [ main:1962 ] - [ INFO ]  Successfully started service 'sparkDriver' on port 58740.
+2019-03-30 11:30:28  [ main:1990 ] - [ INFO ]  Registering MapOutputTracker
+2019-03-30 11:30:28  [ main:2038 ] - [ INFO ]  Registering BlockManagerMaster
+2019-03-30 11:30:28  [ main:2041 ] - [ INFO ]  Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-03-30 11:30:28  [ main:2042 ] - [ INFO ]  BlockManagerMasterEndpoint up
+2019-03-30 11:30:28  [ main:2056 ] - [ INFO ]  Created local directory at G:\BookData\temp\blockmgr-ae6ce832-8db3-441a-9829-918319e13501
+2019-03-30 11:30:28  [ main:2085 ] - [ INFO ]  MemoryStore started with capacity 1992.0 MB
+2019-03-30 11:30:28  [ main:2100 ] - [ INFO ]  Registering OutputCommitCoordinator
+2019-03-30 11:30:28  [ main:2183 ] - [ INFO ]  Logging initialized @12207ms
+2019-03-30 11:30:29  [ main:2252 ] - [ INFO ]  jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2019-03-30 11:30:29  [ main:2268 ] - [ INFO ]  Started @12294ms
+2019-03-30 11:30:29  [ main:2292 ] - [ INFO ]  Started ServerConnector@2552f2cb{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2019-03-30 11:30:29  [ main:2293 ] - [ INFO ]  Successfully started service 'SparkUI' on port 4040.
+2019-03-30 11:30:29  [ main:2321 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@3f23a3a0{/jobs,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2321 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@493dfb8e{/jobs/json,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2322 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@5d25e6bb{/jobs/job,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2322 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@9d157ff{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2323 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@2f162cc0{/stages,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2323 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@5df417a7{/stages/json,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2324 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@7c041b41{/stages/stage,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2325 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@1cb3ec38{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2325 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@403132fc{/stages/pool,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2326 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@71c5b236{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2326 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@2cab9998{/storage,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2326 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@2f7a7219{/storage/json,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2327 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@669513d8{/storage/rdd,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2328 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@3a1d593e{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2328 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@4a8a60bc{/environment,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2329 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@361c294e{/environment/json,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2329 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@7859e786{/executors,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2330 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@285d851a{/executors/json,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2330 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@314b8f2d{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2331 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@664a9613{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2336 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@5118388b{/static,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2337 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@72e34f77{/,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2338 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@7bf9b098{/api,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2339 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@290b1b2e{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2339 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@47874b25{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-03-30 11:30:29  [ main:2341 ] - [ INFO ]  Bound SparkUI to 0.0.0.0, and started at http://DESKTOP-VSIB8K6:4040
+2019-03-30 11:30:29  [ main:2451 ] - [ INFO ]  Starting executor ID driver on host localhost
+2019-03-30 11:30:29  [ main:2559 ] - [ INFO ]  Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 58782.
+2019-03-30 11:30:29  [ main:2559 ] - [ INFO ]  Server created on DESKTOP-VSIB8K6:58782
+2019-03-30 11:30:29  [ main:2561 ] - [ INFO ]  Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-03-30 11:30:29  [ main:2591 ] - [ INFO ]  Registering BlockManager BlockManagerId(driver, DESKTOP-VSIB8K6, 58782, None)
+2019-03-30 11:30:29  [ dispatcher-event-loop-2:2595 ] - [ INFO ]  Registering block manager DESKTOP-VSIB8K6:58782 with 1992.0 MB RAM, BlockManagerId(driver, DESKTOP-VSIB8K6, 58782, None)
+2019-03-30 11:30:29  [ main:2599 ] - [ INFO ]  Registered BlockManager BlockManagerId(driver, DESKTOP-VSIB8K6, 58782, None)
+2019-03-30 11:30:29  [ main:2599 ] - [ INFO ]  Initialized BlockManager: BlockManagerId(driver, DESKTOP-VSIB8K6, 58782, None)
+2019-03-30 11:30:29  [ main:2779 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@790132f7{/metrics/json,null,AVAILABLE,@Spark}

@@ -1,0 +1,46 @@
+2019-03-29 15:25:07  [ main:462 ] - [ WARN ]  Note that spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone/kubernetes and LOCAL_DIRS in YARN).
+2019-03-29 15:25:15  [ Executor task launch worker for task 27:8724 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-03-29 15:25:15  [ Executor task launch worker for task 27:8725 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-03-29 15:25:15  [ Executor task launch worker for task 51:8987 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2019-03-29 15:25:15  [ Executor task launch worker for task 51:8987 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeRefLAPACK
+2019-03-29 15:26:04  [ main:378 ] - [ WARN ]  Note that spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone/kubernetes and LOCAL_DIRS in YARN).
+2019-03-29 15:26:12  [ Executor task launch worker for task 30:8299 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-03-29 15:26:12  [ Executor task launch worker for task 30:8300 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-03-29 15:26:13  [ Executor task launch worker for task 48:8575 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2019-03-29 15:26:13  [ Executor task launch worker for task 48:8575 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeRefLAPACK
+2019-03-29 15:27:09  [ main:375 ] - [ WARN ]  Note that spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone/kubernetes and LOCAL_DIRS in YARN).
+2019-03-29 15:27:28  [ main:407 ] - [ WARN ]  Note that spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone/kubernetes and LOCAL_DIRS in YARN).
+2019-03-29 15:27:35  [ Executor task launch worker for task 27:7620 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-03-29 15:27:35  [ Executor task launch worker for task 27:7620 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-03-29 15:27:36  [ Executor task launch worker for task 49:7941 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2019-03-29 15:27:36  [ Executor task launch worker for task 49:7942 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeRefLAPACK
+2019-03-29 15:28:18  [ main:371 ] - [ WARN ]  Note that spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone/kubernetes and LOCAL_DIRS in YARN).
+2019-03-29 15:28:25  [ Executor task launch worker for task 29:7546 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-03-29 15:28:25  [ Executor task launch worker for task 29:7547 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-03-29 15:28:26  [ Executor task launch worker for task 52:7861 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2019-03-29 15:28:26  [ Executor task launch worker for task 52:7862 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeRefLAPACK
+2019-03-29 15:30:15  [ main:389 ] - [ WARN ]  Note that spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone/kubernetes and LOCAL_DIRS in YARN).
+2019-03-29 15:30:22  [ Executor task launch worker for task 34:7461 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-03-29 15:30:22  [ Executor task launch worker for task 34:7462 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-03-29 15:30:22  [ Executor task launch worker for task 53:7794 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2019-03-29 15:30:22  [ Executor task launch worker for task 53:7795 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeRefLAPACK
+2019-03-29 15:31:34  [ main:375 ] - [ WARN ]  Note that spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone/kubernetes and LOCAL_DIRS in YARN).
+2019-03-29 15:31:41  [ Executor task launch worker for task 27:7719 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-03-29 15:31:41  [ Executor task launch worker for task 27:7720 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-03-29 15:31:41  [ Executor task launch worker for task 52:7997 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2019-03-29 15:31:41  [ Executor task launch worker for task 52:7998 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeRefLAPACK
+2019-03-29 15:32:20  [ main:373 ] - [ WARN ]  Note that spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone/kubernetes and LOCAL_DIRS in YARN).
+2019-03-29 15:32:28  [ Executor task launch worker for task 28:7776 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-03-29 15:32:28  [ Executor task launch worker for task 28:7776 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-03-29 15:32:28  [ Executor task launch worker for task 53:8113 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2019-03-29 15:32:28  [ Executor task launch worker for task 53:8114 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeRefLAPACK
+2019-03-29 15:40:44  [ main:368 ] - [ WARN ]  Note that spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone/kubernetes and LOCAL_DIRS in YARN).
+2019-03-29 15:40:51  [ Executor task launch worker for task 28:7414 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-03-29 15:40:51  [ Executor task launch worker for task 28:7415 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-03-29 15:40:52  [ Executor task launch worker for task 52:7734 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2019-03-29 15:40:52  [ Executor task launch worker for task 52:7735 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeRefLAPACK
+2019-03-29 16:08:49  [ main:371 ] - [ WARN ]  Note that spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone/kubernetes and LOCAL_DIRS in YARN).
+2019-03-29 16:08:56  [ Executor task launch worker for task 34:7468 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-03-29 16:08:56  [ Executor task launch worker for task 34:7469 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-03-29 16:08:56  [ Executor task launch worker for task 47:7767 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2019-03-29 16:08:56  [ Executor task launch worker for task 47:7768 ] - [ WARN ]  Failed to load implementation from: com.github.fommil.netlib.NativeRefLAPACK
