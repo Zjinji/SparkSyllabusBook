@@ -2,7 +2,6 @@ package chapter4.read
 
 import org.apache.hadoop.io.{LongWritable, Text}
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat
-import org.apache.orc.mapreduce.OrcInputFormat
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**

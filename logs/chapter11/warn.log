@@ -1,1 +1,0 @@
-2019-03-30 11:30:27  [ main:446 ] - [ WARN ]  Note that spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone/kubernetes and LOCAL_DIRS in YARN).

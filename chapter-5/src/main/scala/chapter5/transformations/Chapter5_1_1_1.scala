@@ -13,6 +13,8 @@ import org.apache.spark.{SparkConf, SparkContext}
   */
 object Chapter5_1_1_1 {
   def main(args: Array[String]): Unit = {
+//    System.setProperty("hadoop.home.dir", "D:\\hadoop-2.8.5")
+
     val conf = new SparkConf()
       .setMaster("local[*]")
       .setAppName("Chapter5_1_1_1")
