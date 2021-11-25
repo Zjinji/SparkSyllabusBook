@@ -9,15 +9,15 @@ import org.apache.spark.ml.recommendation.ALS
 import org.apache.spark.sql.SparkSession
 
 /**
-  *
-  * FUNCTIONAL_DESCRIPTION: 
-  * CREATE_BY: 尽际
-  * CREATE_TIME: 2019/3/25 16:52
-  * MODIFICATORY_DESCRIPTION: 
-  * MODIFY_BY:
-  * MODIFICATORY_TIME:
-  * VERSION：V1.0
-  */
+ *
+ * FUNCTIONAL_DESCRIPTION:
+ * CREATE_BY: 尽际
+ * CREATE_TIME: 2019/3/25 16:52
+ * MODIFICATORY_DESCRIPTION:
+ * MODIFY_BY:
+ * MODIFICATORY_TIME:
+ * VERSION：V1.0
+ */
 object ALSModeling {
 
   def parseAnswerInfo(json: String): Rating = {
@@ -28,7 +28,7 @@ object ALSModeling {
     val questionID = answer.question_id.split("_")(1).toLong
 
     val rating = answer.score
-    val ratingFix = if(rating <= 3) 3 else if(rating > 3 && rating <= 8) 2 else 1
+    val ratingFix = if (rating <= 3) 3 else if (rating > 3 && rating <= 8) 2 else 1
     Rating(studentID, questionID, ratingFix)
   }
 
@@ -75,7 +75,7 @@ object ALSModeling {
     val rmse = evaluator.evaluate(predictions)
 
     //显示训练集数据
-    randomSplits(0).foreach(x =>println("训练集： " + x))
+    randomSplits(0).foreach(x => println("训练集： " + x))
     //显示测试集数据
     randomSplits(1).foreach(x => println("测试集： " + x))
     //推荐结果
@@ -83,11 +83,11 @@ object ALSModeling {
     //打印预测结果
     predictions.foreach(x => println("预测结果:  " + x))
     //输出误差
-    println("模型误差评估："  + rmse)
+    println("模型误差评估：" + rmse)
 
     val jedis = RedisUtil.pool.getResource
     jedis.select(1)
-    if(rmse <= 1){
+    if (rmse <= 1) {
       val path = "G:\\BookData\\chapter11\\als_model\\" + System.currentTimeMillis()
       model.save(path)
       jedis.hset("als_model", "recommended_question_id", path)
